@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form</title>
+</head>
+<body>
+    <h1>Student Admission Form</h1>
+
+   <form>
+
+        <lable for="">Student Name</lable>
+        <input type="text" required minlength="6" >
+
+        <br><br>
+
+       <lable for="">Email Address</lable>
+       <input type="email"required>
+
+       <br><br>
+
+       <lable for="">Age</lable>
+       <input type="number" min="15">
+
+       <br><br>
+
+       <lable for="">Date of birth</lable>
+       <input type="date">
+
+        <br><br>
+
+        <lable for="">Address</lable>
+       <textarea cols="30" rows="4"></textarea>
+
+       <br><br>
+
+       <lable for="">Select Course</lable>
+       <select>
+            <option>MERN Stack Development</option>
+            <option>Artificial Intelligence</option>
+            <option>IOT</option>
+            <option>Robotics</option>
+            <option>Devops</option>
+       </select>
+
+       <br><br>
+
+       <lable for="">College</lable>
+       <input type="text" list="college">
+
+       <datalist id="college">
+            <option>BBD University</option>
+            <option>RMLA University</option>
+            <option>Lucknow University</option>
+            <option>Integral University</option>
+       </datalist>
+
+       <br><br>
+       <button type="Submit">Submit</button>
+
+   </form>
+
+
+</body>
+</html>
